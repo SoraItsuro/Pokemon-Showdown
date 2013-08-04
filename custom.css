@@ -1,0 +1,113 @@
+/**
+ * Custom CSS declarations
+ *
+ * If your server is registered, you can create a file named `custom.css`
+ * in the `config` directory and populate it with CSS rules to override the
+ * normal client styles, when the client is connected to your server. In
+ * other words, you can use this facility to introduce a custom theme for
+ * your server.
+ */
+
+body{
+background-image:url('');
+background:url('http://i.imgur.com/D4LmWkU.jpg');
+background-attachment:fixed;
+color:white;
+font-family:agency fb;
+}
+
+li{
+border:1px solid black;
+}
+
+#header, .header{
+background:#000000;
+background-image:url('');
+}
+
+.userlist{
+border-right:1px solid black;
+border:0px solid transparent
+background-image:url('');
+ background:#000000;
+}
+
+.chat-log.hasuserlist{
+background:#000000
+}
+
+.maintabbarbottom{
+background:#000000;
+border:1px solid #000000;
+}
+
+.button.closable{
+background:#484848;
+background-image:url('');
+}
+
+.chat, .notice{
+color:white;
+font-weight:bold;
+font-size:150%;
+}
+
+.pm-log{
+background:#282828;
+background-image:url('');
+}
+
+#lobby-userlist-users{
+color:white;
+}
+
+div, class{
+color:white;
+}
+
+.chat-log-add.hasuserlist{
+border:1px solid black;
+background:#000000;
+background-image:url('');
+}
+
+.ps-room.ps-room-light.scrollable{
+background:#000000;
+background-image:url('');
+}
+
+.userlist li{
+border-bottom:1px solid black;
+}
+
+.userbutton.username:hover{
+background:black;
+}
+
+.ps-room.ps-room-light{
+background:black;
+}
+
+.textbox{
+background:#282828;
+color:black
+border:1px solid black;
+}
+
+/*ATTENTION - Chris, this is the code that put in the random black bars.*/
+p::-moz-selection, input::-moz-selection, textarea::-moz-selection {
+    color: white;
+    background-color: black;
+}
+
+.ps-popup{
+background:black;
+background-image:url('');
+border:1px solid #282828;
+}
+
+.ps-room.ps-room-opaque{
+background:black;
+background-image:url('');
+}
+
